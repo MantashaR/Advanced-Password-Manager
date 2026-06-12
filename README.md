@@ -110,10 +110,19 @@ pytest
 
 ## 🛠️ Tech stack
 
-- Python 3.10+
-- [`cryptography`](https://cryptography.io/) — encryption & key derivation
-- [`rich`](https://github.com/Textualize/rich) — terminal UI
-- [`pyperclip`](https://github.com/asweigart/pyperclip) — clipboard (optional)
+- **Python 3.10+** — the language the whole app is written in.
+- **[`cryptography`](https://cryptography.io/)** — the security core. Provides Fernet
+  (AES-128-CBC + HMAC) for encrypting the vault and PBKDF2-HMAC-SHA256 for deriving the
+  key from your master password. *Required.*
+- **[`rich`](https://github.com/Textualize/rich)** — terminal UI library. Powers the
+  colored banner, panels, tables, and ✓/✗ status messages so the CLI looks polished.
+  Purely cosmetic — the app falls back to plain text if it isn't installed.
+- **[`pyperclip`](https://github.com/asweigart/pyperclip)** — clipboard library. Lets
+  you copy a password straight to the clipboard instead of showing it on screen.
+  *Optional* — the app simply skips clipboard features if it's missing.
+
+In short: `cryptography` does the actual security work, `rich` makes it look good, and
+`pyperclip` adds clipboard convenience.
 
 ---
 
