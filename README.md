@@ -82,6 +82,22 @@ python password_manager.py --file ./my-vault.pm
 
 ---
 
+## 🧪 Testing
+
+The project ships with a full [pytest](https://pytest.org) suite (36 tests) covering
+generation, the strength meter, key derivation, vault auth, CRUD, encryption-at-rest,
+and the CLI.
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+
+In **VS Code**, the included `.vscode/` config enables the Test Explorer and one-click
+Run/Debug — just open the folder and pick a configuration from the Run panel.
+
+---
+
 ## ⚠️ Important
 
 - **There is no password recovery.** If you forget your master password, the vault
