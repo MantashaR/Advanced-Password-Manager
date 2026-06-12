@@ -5,6 +5,8 @@ A secure, **offline**, encrypted password manager for the terminal — written i
 Everything lives in a single encrypted vault file on your machine. Your passwords are
 protected by a master password and never leave your computer.
 
+![Screenshot of the password manager UI](docs/screenshot.svg)
+
 ---
 
 ## ✨ Features
