@@ -1,5 +1,7 @@
 # 🔐 Advanced Password Manager
 
+[![Tests](https://github.com/MantashaR/Advanced-Password-Manager/actions/workflows/tests.yml/badge.svg)](https://github.com/MantashaR/Advanced-Password-Manager/actions/workflows/tests.yml)
+
 A secure, **offline**, encrypted password manager for the terminal — written in pure Python.
 
 Everything lives in a single encrypted vault file on your machine. Your passwords are
