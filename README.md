@@ -95,9 +95,6 @@ pip install -r requirements-dev.txt
 pytest
 ```
 
-In **VS Code**, the included `.vscode/` config enables the Test Explorer and one-click
-Run/Debug — just open the folder and pick a configuration from the Run panel.
-
 ---
 
 ## ⚠️ Important

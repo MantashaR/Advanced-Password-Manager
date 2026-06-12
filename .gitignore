@@ -20,11 +20,6 @@ env/
 # OS / editor
 .DS_Store
 Thumbs.db
+.vscode/
 .idea/
 *.swp
-
-# Keep shared VS Code run/debug config, ignore the rest
-.vscode/*
-!.vscode/launch.json
-!.vscode/settings.json
-!.vscode/extensions.json
