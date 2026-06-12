@@ -1,0 +1,25 @@
+# Vault files — NEVER commit these (they hold your encrypted secrets)
+*.pm
+*.pm.tmp
+.vault*
+vault*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
